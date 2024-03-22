@@ -1,0 +1,5 @@
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+
+# C:/jihuo 为本地插件的保存路径，请根据实际情况修改 Mac/Linux请自行调整
+-javaagent:C:/jihuo/active-agt-idea.jar
